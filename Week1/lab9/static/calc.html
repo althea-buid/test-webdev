@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Calculator</title>
+<link href="lab1.css" type="text/css" rel="stylesheet"> <!--way 1-->
+
+</head>
+<body style="text-align:center; font-family:Arial;">
+ 
+  <h1>🎯 Student Calculator</h1>
+ 
+  <form action="/calculate" method="POST">
+    <input type="number" name="inputA" id="inputA" placeholder="First value" required>
+    <input type="number" name="inputB" id="inputB" placeholder="Second value" required>
+    <select name="calculation" id="calculation" required>
+      <option value="">Select Calculation</option>
+      <option value="add">Add</option>
+      <option value="subtract">Subtract</option>
+    </select>
+    <button type="submit">Calculate</button>
+  </form>
+<!--  
+  <h3 id="output" style="color:blue; margin-top:20px;"></h3>
+  <p id="feedbackOutput" style="font-weight:bold;"></p> -->
+
+ 
+</body>
+</html>
+
+ 

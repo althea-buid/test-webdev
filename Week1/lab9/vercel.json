@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "calc.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/calc.js" }
+  ]
+}

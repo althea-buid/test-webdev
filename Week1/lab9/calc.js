@@ -26,6 +26,8 @@ app.post('/calculate', (req, res) => {
   res.json({ inputA, inputB, calculation, result});// can send as HTML message, can send a server-side rendered page
 });
 
-app.listen(3000, () => {
-  console.log('Server running on http://localhost:3000');
-});
+// app.listen(3000, () => {
+//   console.log('Server running on http://localhost:3000');
+// });
+
+module.exports = app;

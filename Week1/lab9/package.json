@@ -1,0 +1,11 @@
+{
+  "name": "lab9-node-app",
+  "version": "1.0.0",
+  "main": "calc.js",
+  "scripts": {
+    "start": "node calc.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

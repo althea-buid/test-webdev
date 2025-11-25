@@ -18,6 +18,10 @@ app.post('/calculate', (req, res) => {
   if (calculation === 'add') {
     result = Number(inputA) + Number(inputB);
   } 
+
+  else if (calculation =="subtract"){
+    result = Number(inputA) - Number(inputB);
+  }
      else {
     return res.status(400).json({ error: 'Invalid calculation type' });
   }
